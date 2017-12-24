@@ -1,0 +1,162 @@
+@CHARSET "UTF-8";
+/* 所有容器去掉边框 */
+body{
+	/*  background-color:green;  */
+}
+*{
+	padding:0;
+	margin:0;
+}
+/* @media only screen and (min-width:640px) and (max-width:980px){
+	#header{
+	width:640px;
+	height:100px;
+	float:left;
+}
+#nave{
+	width:640px;
+	height:400px;
+	border:1px solid #00FF00;
+	float:left;
+}
+#content{
+	width:640px;
+	height:400px;
+	border:1px solid #0000FF;
+	float:left;
+}
+#footer{
+	width:640px;
+	height:100px;
+	border:1px solid #99FF00;
+	padding-top:25px;
+	text-align:center;
+	font-size:12px;
+	color:gray;
+	float:left;
+}
+} */
+/* 头部 */
+#header{
+	width:1360px;
+	height:100px;
+	float:left;
+}
+#header img{
+	margin:20px 0 0 60px;
+}
+/* 左边图片区 */
+#nave{
+	width:670px;
+	height:400px;
+	/* border:1px solid #00FF00; */
+	float:left;
+}
+#nave img{
+	width:100%;
+	height:100%;
+}
+/* 右边登录区 */
+#content{
+	width:670px;
+	height:400px;
+	/* border:1px solid #0000FF; */
+	float:left;
+}
+/* 登录面板 */
+#content .panel{
+	border:1px solid #6e6e6e;
+	margin-top:30px;
+	margin-left:200px; 
+	border-radius:5px;
+	width:362px;
+	height:347px;
+}
+
+#content .panel .group{
+	/* text-align:center;  */
+}
+#content .panel .group label{
+	display:block;
+	text-align:left;
+	margin-top:25px;
+	font-size:18px;
+	margin-left:45px;
+}
+
+#content .panel .group input{
+	height:34px;
+	width:270px;
+	margin-top:15px;
+	margin-left:45px;
+	padding-left:7px;
+}
+#lab{
+	position:relative;
+	top:7px;
+}
+#plab{
+	position:relative;
+	bottom:15px;
+}
+#pwd{
+	position:relative;
+	bottom:15px;
+}
+#content .panel .group input:focus{
+	outline:none;
+	border-color:gray;
+}
+/* 提示信息 */
+#content .panel label{
+	font-size:12px;
+	display:inline-block;
+	margin-top:20px;
+	margin-left:45px;
+	position:relative;
+	bottom:15px;
+}
+#content .panel a{
+	text-decoration:none;
+}
+/* 登录按钮 */
+#content .panel .sub{
+	width:270px;
+	height:44px;
+	margin-left:45px;
+	margin-top:23px;
+	background-color:#ff2832;
+	border:none;
+	border-radius:5px;
+	color:white;
+	font-size:20px;
+	position:relative;
+	bottom:15px;
+}
+#content .panel .sub:hover{
+	cursor:pointer;
+	background-color:#f01923;
+}
+/* 注册信息 */
+#content .panel .aset {
+	font-size:12px;
+	margin-left:260px;
+	margin-top:13px;
+	position:relative;
+	bottom:15px;
+}
+/* 尾部 */
+#footer{
+    width:1360px;
+	height:100px;
+	/* border:1px solid #99FF00; */
+	padding-top:25px;
+	text-align:center;
+	font-size:12px;
+	color:gray;
+	float:left;
+}
+#footer1{
+	 margin-top:15px;
+
+	}

@@ -1,0 +1,191 @@
+@CHARSET "UTF-8";
+body{
+	background-color:rgb(246,249,251);
+	font-size:14px;
+	*{
+		margin:0;
+		padding:0;
+		
+	}
+	a{
+		text-decoration:none;
+		font-color:#464646;
+	}
+}
+#header{
+	text-align:center;
+}
+#header .header-reg{
+	width:50%;
+	text-align:right;
+    display:inline-block;
+    margin-top:10px;
+}
+#header .header-reg a{
+	text-decoration:none;
+	font-size:12px;
+}
+#divhr{
+	/* border:1px solid #f07700; */
+	text-align:center;
+	width:960px;
+	margin:0 auto;
+	margin-top:10px;
+	overflow:hidden;
+}
+/* 用户注册 */
+#wrap span{
+	float:right;
+	margin-right:230px;
+	margin-top:-30px;
+}
+/* 导航 */
+#nav{
+	/* border:1px solid #f07700; */
+	width:960px;
+	margin:0 auto;
+	margin-top:30px;
+}
+#tagContent .usertab{
+	border:20px solid #f07700;
+	width:960px;
+	height:500px;
+	margin:0 auto;
+	background-color:white;
+}
+/* 企业注册表格 */
+#tagContent .comtab{
+	border:20px solid #f07700;
+	width:980px;
+	height:980px;
+	margin:0 auto;
+	background-color:white;
+}
+#tagContent .comtab .companel p{
+	display:block;
+	margin-right:350px;
+}
+#tagContent .comtab .comaddr select{
+	margin-right:32px;
+}
+
+/* 所有文本框的设置 */
+#tagContent .comtab .companel input{
+	width:312px;
+	height:38px;
+	 margin-top:20px;
+     
+     margin-bottom:20px;
+ 
+}
+/* ---------------- */
+/* 公司面板 */
+#wrap .companel{
+	padding-top:40px;
+	text-align:center;
+	width:800px;
+	height:960px;
+	/* border:1px solid green; */
+	margin:0 auto;
+	background-color:lightwhite;
+}
+#wrap .companel .addr{
+	margin-left:60px;
+}
+#wrap .companel .name{
+	margin-right:20px;
+}
+/* 手机号位置 */
+#wrap .companel .num{
+	margin-left:13px;
+}
+/* 验证码 */
+#wrap .companel .randomCode{
+	margin-right:190px;
+}
+/* 当当规则 */
+#wrap .comtab .companel .labinfo{
+	margin-top:10px;
+	width:0;
+	height:0;
+	background-color:red;
+}
+#wrap .comtab .companel .subpanel .sub{
+	width:178px;
+	height:44px;
+	background-color:#f01923;
+	border-radius:22px;
+	cursor:pointer;
+	font-size:20px;
+	border:0;
+	margin-top:20px;
+	color:white;
+}
+/* 用户面板 */
+#wrap .userpanel{
+	padding-top:40px;
+	text-align:center;
+	width:800px;
+	height:450px;
+	/* border:1px solid green; */
+	margin:0 auto;
+	background-color:lightwhite;
+}
+#wrap .userpanel label{
+	color:#464646;
+}
+#wrap .userpanel input{
+	width:312px;
+	height:38px;
+}
+#wrap .userpanel input:focus{
+	padding-left:7px;
+	}
+#wrap .userpanel p{
+	/* border:1px solid red; */
+	margin-top:10px;
+	margin-left:45px;
+	font-size:12px;
+}
+#wrap .userpanel .p2{
+	padding-right:170px;
+}
+/* 验证码 */
+#wrap .userpanel .randomCode{
+	width:160px;
+	height:38px;
+	margin-right:30px;
+}
+/* 提示信息*/
+#wrap .userpanel .lab{
+	margin-top:10px;
+	width:0;
+	height:0;
+}
+/* 注册按扭 */
+#wrap .userpanel .subpanel .sub{
+	width:178px;
+	height:44px;
+	background-color:#f01923;
+	border-radius:22px;
+	cursor:pointer;
+	font-size:20px;
+	border:0;
+	margin-top:20px;
+	color:white;
+}
+/* 尾部 */
+#footer{
+    width:1360px;
+	height:100px;
+	/* border:1px solid #99FF00; */
+	padding-top:25px;
+	text-align:center;
+	font-size:12px;
+	color:gray;
+	float:left;
+}
+#footer1{
+	 margin-top:15px;
+
+	}

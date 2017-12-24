@@ -1,0 +1,134 @@
+@CHARSET "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+#header{
+	position:relative;
+	top:-10px;
+	border-bottom: 1px solid #f2f2f2;
+	width:1349px;
+	height:35px;
+	background-color:#f9f9f9;
+	line-height:35px;
+}
+ul{
+	margin-right:100px;
+}
+ul li{
+	float:right;
+	list-style:none;
+	margin: 0 auto;
+	position:relative;
+	/* top:-35px; */
+	}
+#car img{
+	margin-left:180px;
+}
+
+img{
+	margin-left:180px;
+}
+#car span{
+	display:inline-block;
+	width:190px;
+	height:36px;
+	margin-left:30px;
+	color: #fff;
+	border:1px solid #ff2832;
+	background-color:#ff2832;
+	border-radius:30px 30px;
+	text-align:center;
+	line-height:36px;
+}
+#operator{
+	margin-left:180px;
+}
+#operator ul{
+	margin-right:210px;
+}
+#content span{
+	color:#fe8d00;
+}
+#space{
+	margin-top:7px;
+	border-top:4px solid red;
+	border-bottom:1px solid gray;
+	height:65px;
+}
+#dp_address .img{
+	border:1px solid gray;
+	background-color:lightgray;
+	display:inline-block;
+	width:960px;
+	height:30px;
+	font-size:20px;
+	margin-left:180px;
+	position:relative;
+	top:25px;
+}
+#dp_address .select_add{
+	border:1px solid gray;
+	display:inline-block;
+	border-radius:5px;
+}
+#content {
+	border:0px solid gray;
+	margin-left:180px;
+	width:960px;
+	height:430px;
+}
+#content .success span{
+	margin-left:120px;
+}
+#content .success h5{
+	color:black;
+	font-weight:bold;
+}
+#content .success h5 a{
+	margin-left:-160px;
+
+	}
+	
+table{border-collapse:collapse;width:960px;background:#f9f9f9;
+ border:3px}
+tr{
+	 border: 1px solid gray;
+}
+td{
+    border: 1px solid gray; /*边框*/
+    width:70px;             /*单元格宽度*/
+    height:50px;             /*单元格高度*/
+    text-align:left;       /*单元格文字居中对齐*/
+}
+#localImag{
+	border:1px solid green;
+}
+#preview{
+	margin-left:1px;
+}
+/*  尾部 */
+#hh{	
+	margin-top:7px;
+	border-top:2px solid #fa5000;
+}
+ #footer{
+	width:100%;
+	/* border:1px solid green; */
+	text-align:center;
+	/* margin:10px 10% 0 10%;  */
+}
+#footer .font-footer{
+	display:inline-block;
+	font-size:13px;
+	color: #999;
+}
+
+#footer img{
+	margin-left:-10px;
+}
+ 
